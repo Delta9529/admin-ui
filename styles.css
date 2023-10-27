@@ -1,0 +1,64 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    font-size: small;
+}
+
+
+.input{
+    display: flex;
+    justify-content: center;
+}
+
+.inputBox{
+    width: 100%;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 20px;
+    text-align:left;
+    padding: 2px;
+}
+
+.colT{
+    display: flex;
+    justify-content: space-around;
+    /* margin: 18px; */
+    /* padding: 10px; */
+}
+
+/* .userRows{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} */
+
+.userDetails{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    /* flex-wrap: wrap; */
+    /* text-align: left; */
+}
+
+.buttons{
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+}
+
+.paginationButton{
+    border: 1px solid;
+    border-radius: 50%;
+    margin: 5px;
+    background-color: skyblue;
+}
+
+
+.active{
+    background-color:chocolate;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
